@@ -12,3 +12,6 @@
 7)config-csv data config,http cookie manager,http header manager</br>
 8) listener-view results table,tree,sumamry,perfmon metrics collector</br>
 </br>
+#### Execution flow of different elements
+config element -preprocessor- timers-samplers-post processors-assertions-listeners
+
