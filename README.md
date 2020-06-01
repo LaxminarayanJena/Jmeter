@@ -15,3 +15,12 @@
 #### Execution flow of different elements
 config element -preprocessor- timers-samplers-post processors-assertions-listeners
 
+#### APM Tools
+APPDynamics,Dynatrace,New Relic,
+
+Application ,server,browser.mobile,avalaibility monitoring
+web transaction time, apdex score,throughput ,transaction ,error rate
+
+4 servers 
+apdex,resp time,throughput,error rate,cpu usage,memory
+
