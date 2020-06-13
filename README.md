@@ -23,4 +23,10 @@ web transaction time, apdex score,throughput ,transaction ,error rate
 
 4 servers 
 apdex,resp time,throughput,error rate,cpu usage,memory
-
+```
+Go into JMeter’s bin folder
+Enter following command, jmeter -n –t test.jmx -l testresults.jtl
+-n: It specifies JMeter is to run in non-gui mode
+-t: Name of JMX file that contains the Test Plan
+-l: Name of JTL(JMeter text logs) file to log results
+```
