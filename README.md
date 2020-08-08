@@ -70,3 +70,4 @@ download jmeter plugin manager and put it in lib/ext directory
 install custom thread group
 jp@gc Ultimate Thread group
  ```
+![spike testing](https://user-images.githubusercontent.com/24494133/89702423-ce543600-d95e-11ea-81df-6680702459c4.PNG)
