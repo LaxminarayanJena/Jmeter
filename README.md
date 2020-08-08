@@ -57,4 +57,16 @@ master - slave1
     
     
  ```
-                
+  #### Load,Stress,Spike Endurance Testing              
+ ```
+load testing -100 users
+stress testing  -150 users to find breaking point
+spike testing- sudden increase tatkal -irctc
+endurance testing-8 hrs ,1 day testing -issues related to memory leaks
+
+jp@gc-Ultimate Thread Group
+
+download jmeter plugin manager and put it in lib/ext directory
+install custom thread group
+jp@gc Ultimate Thread group
+ ```
