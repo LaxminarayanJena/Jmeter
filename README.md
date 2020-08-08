@@ -32,3 +32,26 @@ Enter following command, jmeter -n –t test.jmx -l testresults.jtl
 ```
 
 #### Distrubuted Testing
+```
+master - slave1 
+         slave2  -  your site 
+         slave 3 
+ 
+ pre config -master and slave should have same jmeter version
+ 
+ Slave machine configuration
+    1)bin->jmeter.properties- 
+                server.rmi.ssl.disable=true 
+    2) start jmeter server    (copy the ip address)       
+  
+  Master machine configuration
+    1)bin->jmeter.properties- 
+                server.rmi.ssl.disable=true 
+    2)Remote_hosts=paste the slave ip address  192.168.1.0,192.168.1.12
+    3)Restart jmeter
+    Run-Remote Start all
+    See the result in master listener
+    
+    
+ ```
+                
