@@ -30,3 +30,5 @@ Enter following command, jmeter -n –t test.jmx -l testresults.jtl
 -t: Name of JMX file that contains the Test Plan
 -l: Name of JTL(JMeter text logs) file to log results
 ```
+
+#### Distrubuted Testing
