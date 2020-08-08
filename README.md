@@ -38,6 +38,9 @@ master - slave1
          slave 3 
  
  pre config -master and slave should have same jmeter version
+             No firewall ,antivirus blocking
+             system should be as similar as possible-same os,directory tree etc
+             otherwise connection error
  
  Slave machine configuration
     1)bin->jmeter.properties- 
