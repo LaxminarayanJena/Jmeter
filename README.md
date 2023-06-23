@@ -18,6 +18,13 @@ config element -preprocessor- timers-samplers-post processors-assertions-listene
 #### APM Tools
 APPDynamics,Dynatrace,New Relic,
 
+```
+Think Time- represents the delay between consecutive requests within a single user session.
+Pacing - controls the rate at which virtual users are executed in a test plan.
+Ramp-Up Time- determines how quickly new threads are started in a test.
+Delay- introduces a pause before starting a test or a specific request.
+```
+
 Application ,server,browser.mobile,avalaibility monitoring
 web transaction time, apdex score,throughput ,transaction ,error rate
 
