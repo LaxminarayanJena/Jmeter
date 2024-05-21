@@ -19,10 +19,11 @@ config element -preprocessor- timers-samplers-post processors-assertions-listene
 APPDynamics,Dynatrace,New Relic,
 
 ```
-Think Time- represents the delay between consecutive requests within a single user session.
-Pacing - controls the rate at which virtual users are executed in a test plan.
-Ramp-Up Time- determines how quickly new threads are started in a test.
-Delay- introduces a pause before starting a test or a specific request.
+Think Time adds realistic pauses between user actions.
+Pace Time controls how often users start new iterations.
+Delay introduces a pause before starting requests or threads.
+Ramp-Up Time spreads out the start of users over a period to gradually increase load.-----You have 100 virtual users and a ramp-up time of 200 seconds.
+Each user will start 2 seconds apart (200 seconds / 100 users).
 ```
 
 Application ,server,browser.mobile,avalaibility monitoring
