@@ -19,10 +19,18 @@ config element -preprocessor- timers-samplers-post processors-assertions-listene
 APPDynamics,Dynatrace,New Relic,
 
 ```
-Think Time adds realistic pauses between user actions.
-Pace Time controls how often users start new iterations.
+Think Time adds realistic pauses between user actions.-Use a Uniform Random Timer or Constant Timer.
+Constant Timer set to 5000 milliseconds, JMeter will wait 5 seconds
+
+Pace Time controls how often users start new iterations.-a combination of timers and loop controllers
+Suppose you want each virtual user to start a new iteration of the scenario every 60 seconds.
+If a user finishes their actions in 40 seconds, JMeter will wait for an additional 20 seconds before starting the next iteration.
+
 Delay introduces a pause before starting requests or threads.
-Ramp-Up Time spreads out the start of users over a period to gradually increase load.-----You have 100 virtual users and a ramp-up time of 200 seconds.
+delay of 10 seconds in a Thread Group, JMeter will wait for 10 second
+
+Ramp-Up Time spreads out the start of users over a period to gradually increase load.-----
+You have 100 virtual users and a ramp-up time of 200 seconds.
 Each user will start 2 seconds apart (200 seconds / 100 users).
 ```
 
